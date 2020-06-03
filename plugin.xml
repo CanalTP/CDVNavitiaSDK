@@ -7,8 +7,6 @@
     </js-module>
 
     <platform name="ios">
-        <hook type="before_plugin_install" src="scripts/ios/carthage.js" />
-
         <config-file target="config.xml" parent="/*">
             <feature name="NavitiaSDK">
                 <param name="ios-package" value="CDVNavitiaSDK" />
